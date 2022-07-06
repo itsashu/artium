@@ -1,0 +1,54 @@
+.container {
+  background-color: rgb(40, 40, 40);
+  overflow-y: auto;
+  height: 100vh;
+  text-align: center;
+}
+
+.title {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  color: white;
+  text-align: center;
+  align-items: left;
+  align-content: left;
+  justify-content: left;
+  justify-items: left;
+  background-color: rgba(12, 12, 12, 0.5);
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  z-index: 2;
+}
+
+.search {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 38px;
+  width: 85%;
+  height: 30px;
+  z-index: 2;
+}
+
+.movie-list {
+  position: relative;
+  top: 10px;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.fa-arrow-left {
+  font-size: 30px;
+  position: absolute;
+  left: 20px;
+  cursor: pointer;
+}
+
+h1 {
+  color: rebeccapurple;
+}

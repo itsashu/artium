@@ -1,0 +1,22 @@
+.movie {
+  background-color: black;
+  margin: 10px;
+  width: 300px;
+  height: 450px;
+  box-sizing: border-box;
+}
+
+.movie-title {
+  color: white;
+  background-color: black;
+  height: 10%;
+}
+
+.movie-icon {
+  height: 90%;
+  width: 100%;
+}
+
+.display-none {
+  display: none;
+}

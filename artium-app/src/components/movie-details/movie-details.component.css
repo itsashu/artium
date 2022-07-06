@@ -1,0 +1,35 @@
+.movie-details-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: rgb(40, 40, 40);
+}
+
+.movie-poster {
+  height: 100%;
+  width: 50vw;
+}
+
+.movie-details {
+  padding: 10px;
+  display: flex;
+  max-width: 300px;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.movie-details-label {
+  color: yellow;
+}
+
+.movie-details-value {
+  color: white;
+}
